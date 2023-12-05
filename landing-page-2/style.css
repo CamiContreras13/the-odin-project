@@ -56,23 +56,50 @@ header{
     position: absolute;
     z-index: -1;
 }
+.home-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 550px;
+    align-items: center;
+    width: 100%;
+}
 .home h1{
     color:whitesmoke;
     font-family: 'Kanit', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
+    margin-bottom: 20px;
 }
 .home p{
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 12px;
+    text-align: center;
 }
 .home a{
     text-decoration: none;
 }
 .home a:first-child{
     background-color: whitesmoke;
-    margin-top: 7px;
+    margin-top: 10px;
     color: black;
     padding:5px 14px;
     border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.home a:nth-child(2){
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 7px;
+    border: 2px solid whitesmoke;
+    padding:5px 14px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
 }
