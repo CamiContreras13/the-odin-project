@@ -52,7 +52,7 @@ header{
 
 .home img{
     width: 100%;
-    height: 550px;
+    height: 580px;
     position: absolute;
     z-index: -1;
 }
@@ -102,4 +102,61 @@ header{
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     font-size: 12px;
+}
+
+/*how it works*/
+
+.how-it-works .work-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.how-it-works .work-description p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.how-it-works .work-description h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.how-it-works .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.how-it-works .icons div i{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.how-it-works .icons div h3{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight:100;
+    margin-bottom: 30px;
+}
+.how-it-works .icons div p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.how-it-works .btn-work{
+    display: flex;
+    justify-content: center;
+}
+.how-it-works .btn-work button{
+    margin-top: 50px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
 }
