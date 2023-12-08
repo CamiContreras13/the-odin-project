@@ -216,3 +216,43 @@ header{
     color: grey;
     font-size: 15px;
 }
+
+/*recent work*/
+.recent-work{
+    text-align: center;
+}
+.recent-work h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    line-height: 45px;
+    margin-top:  70px;
+}
+.recent-work p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.recent-work button{
+    margin-top: 30px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.recent-work .images{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.recent-work .images img{
+    width: 420px;
+    height: 450px;
+}
