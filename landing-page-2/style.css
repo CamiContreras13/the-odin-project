@@ -370,3 +370,30 @@ header{
     font-size: 18px;
 }
 
+/*price*/
+.price{
+    text-align: center;
+    margin-top:60px;
+}
+.price a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    border: 1px solid black;
+    padding: 5px 8px;
+    border-radius: 7px;
+}
+.price a i{
+    font-size: 5px;
+    vertical-align: middle;
+}
+.price h2{
+    margin-top: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.price p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
