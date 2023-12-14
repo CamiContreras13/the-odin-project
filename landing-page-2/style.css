@@ -375,7 +375,7 @@ header{
     text-align: center;
     margin-top:60px;
 }
-.price a{
+.price .only{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 13px;
@@ -383,7 +383,7 @@ header{
     padding: 5px 8px;
     border-radius: 7px;
 }
-.price a i{
+.price .only i{
     font-size: 5px;
     vertical-align: middle;
 }
@@ -397,3 +397,49 @@ header{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
+.prices{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.prices .prices-1{
+    text-align: start;
+    background-color: rgb(248, 244, 244);
+    padding:8px;
+    border-radius: 8px;
+    width: 400px;
+    height: 450px;
+}
+.prices div p:first-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+.prices div .subtitle{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.prices div .line{
+    font-weight: 900;
+    margin: 0px 5px;
+    
+}
+.prices div .price-div{
+    display:flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content:flex-start;
+    padding:0;
+    margin:0;
+}
+
+.prices div .price-div a{
+    font-family: 'Kanit', sans-serif;
+    margin-left: 15px;
+     
+}
+
+
+
